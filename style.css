@@ -1,0 +1,20 @@
+.card {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.gold {
+  background-color: gold;
+}
+
+.red {
+  background-image: url("./img/unnamed.jpg"); /* Путь к фоновому рисунку */
+  background-position: 0 0; /* Положение фона */
+  background-repeat: no-repeat; /* Отменяем повторение фона */
+  background-size: 100% 100%;
+}
+
+.wrapper {
+  display: flex;
+}
