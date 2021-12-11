@@ -1,0 +1,32 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  padding: 10px;
+}
+.cars {
+  width: 300px;
+  height: 300px;
+  background-image: url("../img/unnamed.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.toolbar {
+  width: 100%;
+  height: 40px;
+  background: space gray;
+ 
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 10px white;
+}
+
+
