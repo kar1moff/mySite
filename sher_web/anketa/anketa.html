@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/x-icon" href="../img/Clients.ico">
+  <title>Анкета</title>
+</head>
+<body class="oboi">
+  <div class="anketa">
+    <b>Ф.И.О.</b><br>
+    <input class="inp" id="fio" type=text name="fio" size=37 maxlength=100><br><br>
+    
+    <b>Ваш е-майл:</b><br>
+    <input class="int" type=text name="email" size=37 maxlength=80 value="@">
+    
+    <b>Вы:</b> 
+Мужчина<input type=radio name="sex" value="man"> 
+Женщина<input type=radio name="sex" value="woman">
+<br><br>
+<b>Какую тип мышин вы предпочитаете ?</b><br>
+<input type=checkbox name="fiction" value="yes"> Седан<br>
+<input type=checkbox name="thriller" value="yes"> Hetch_back<br>
+<input type=checkbox name="adventure" value="yes"> Jeep<br>
+<input type=checkbox name="melodrama" value="yes">Лифт бэк<br>
+<input type=checkbox name="documentary" value="yes">Купе 
+<br><br>
+<b>Количество дней аренды?</b><br>
+<select name="dates">
+
+<option value="five">5
+<option value="ten">10
+<option value="fiften">15
+<option value="twenty">20
+<option value="twenty five">25
+  <OPTGROUP label="Другие">
+  <option value="3">3
+  <option value="9">9
+  <option value="12">12
+  </OPTGROUP>
+  
+  </select>
+  <br><br>
+</select>
+<br><br>
+<a href="/index.html">
+<button id="btn">Отправить</button></a>
+    
+    </form>
+  </div>
+  <script src="../js.js"></script>
+</body>
+</html>
